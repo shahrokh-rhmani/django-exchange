@@ -1,5 +1,5 @@
 from django.contrib import admin
-from models import Currency, ExchangeRate
+from .models import Currency, ExchangeRate  # Changed to relative import for Python 3
 
 
 class CurrencyAdmin(admin.ModelAdmin):
